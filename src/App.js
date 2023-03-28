@@ -1,10 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
 import { useState } from 'react';
+import Todos from './component/Todos/Todos';
 
 function App() {
   return (
     <div>
+      <Todos></Todos>
       {/* <PhoneCharge></PhoneCharge> */}
     </div>
   )
